@@ -925,11 +925,11 @@ body {
   margin-bottom: 50px;
 }
 
-.portfolio-filter .item:not(:last-child) {
+.portfolio-filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.portfolio-filter .btn {
+.portfolio-filter__btn {
   background-color: var(--background-third-color);
   color: var(--text-primary-black-color);
   font-family: inherit;
@@ -947,8 +947,8 @@ body {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-filter .btn:hover,
-.portfolio-filter .btn:focus {
+.portfolio-filter__btn:hover,
+.portfolio-filter__btn:focus {
   background-color: var(--focus-color);
   color: var(--text-third-white-color);
   box-shadow: var(--shadow-portfolio-filter);
@@ -962,23 +962,23 @@ body {
   margin-left: -30px;
 }
 
-.portfolio-project .item {
+.portfolio-project__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
 }
-.portfolio-project .link {
+.portfolio-project__link {
   display: block;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-project .card-img {
+.portfolio-project__card-img {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-project .hover-thumb {
+.portfolio-project__hover-thumb {
   position: absolute;
   top: 0;
   left: 0;
@@ -995,7 +995,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-project .hover-text {
+.portfolio-project__hover-text {
   width: 322px;
   height: 168px;
 
@@ -1008,16 +1008,16 @@ body {
   color: var(--background-primary-color);
 }
 
-.portfolio-project .link:hover,
-.portfolio-project .link:focus {
+.portfolio-project__link:hover,
+.portfolio-project__link:focus {
   box-shadow: var(--shadow-portfiolio-card-focus);
 }
-.portfolio-project .link:hover .hover-thumb,
-.portfolio-project .link:focus .hover-thumb {
+.portfolio-project__link:hover .portfolio-project__hover-thumb,
+.portfolio-project__link:focus .portfolio-project__hover-thumb {
   transform: translateY(0);
 }
 
-.portfolio-project .img-sign {
+.portfolio-project__img-sign {
   padding: 20px 24px;
 
   border-right: 1px solid var(--border-portfolio-card);
@@ -1025,7 +1025,7 @@ body {
   border-left: 1px solid var(--border-portfolio-card);
 }
 
-.portfolio-project .title {
+.portfolio-project__title {
   color: var(--text-primary-black-color);
   font-size: 18px;
   line-height: 2;
@@ -1034,13 +1034,13 @@ body {
   margin-bottom: 4px;
 }
 
-.portfolio-project .text {
+.portfolio-project__text {
   color: var(--text-second-black-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
-.portfolio-project .link {
+.portfolio-project__link {
   text-decoration: none;
 }
